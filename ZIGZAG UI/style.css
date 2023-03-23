@@ -101,15 +101,18 @@ h3 {
   font-size: 14px;
   margin: 0px 24px 20px;
   line-height: 28px;
-  padding: 0;
+  text-indent: -20px;
+  padding-left: 20px;
 }
 
 .card-text li::before {
-  content: "●";
-  font-size: 10px;
-  color: #bd8fe8;
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #bd8fe8;
+  border-radius: 50%;
   margin-right: 10px;
-  vertical-align: middle;
 }
 
 @media (max-width: 700px) {
