@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+button:not(:disabled) {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+/* 공통 */
+
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "SpoqaHanSansNeo-Regular", "돋움", sans-serif;
+}
+
+#inputId,
+#inputPw,
+.btn-login,
+.section2 button,
+.line,
+.btn-sns a {
+  display: block;
+}
+
+.wrap {
+  width: 520px;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  display: block;
+  font-size: 16px;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 20px 188px 18px;
+  margin: 0 auto;
+}
+
+.btn-close {
+  top: 22px;
+  right: 24px;
+  position: absolute;
+}
+
+.btn-close img {
+  width: 16px;
+}
+
+/* section1 */
+h2 {
+  font-size: 20px;
+  padding: 24px;
+}
+#inputId,
+#inputPw,
+.btn-login,
+.section2 button,
+.btn-sns a {
+  width: 472px;
+  height: 50px;
+}
+
+#inputId,
+#inputPw {
+  border-radius: 5px;
+  border: 1px solid #c4c4c4;
+  margin: 0 24px;
+}
+
+::placeholder {
+  padding-left: 16px;
+}
+
+#inputPw {
+  margin-top: 10px;
+}
+
+#inputHold {
+  margin: 17px 8px 21px 28px;
+}
+
+.inputHold-text {
+  font-size: 16px;
+  color: #767676;
+}
+
+.btn-login {
+  background: #2f80ed;
+  margin: 0 24px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-group {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-group button {
+  color: #767676;
+  font-size: 14px;
+}
+
+.btn-group button:first-child:after {
+  content: "|";
+  color: #767676;
+  font-size: 14px;
+  display: inline-block;
+  padding: 0 12px;
+  margin-left: 5px;
+  cursor: default;
+  vertical-align: top;
+}
+
+/* section2 */
+
+.line {
+  text-align: center;
+  margin: 30px auto 20px;
+  color: #767676;
+}
+
+.line::before,
+.line::after {
+  content: "";
+  display: inline-block;
+  width: 205px;
+  height: 1px;
+  background-color: #c4c4c4;
+  vertical-align: middle;
+}
+
+.line::before {
+  margin: auto 13px auto 24px;
+}
+
+.line::after {
+  margin: auto 24px auto 13px;
+}
+
+.btn-sns a {
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 0 auto 10px;
+  line-height: 20px;
+  color: #767676;
+}
+
+.btn-sns a:last-child {
+  margin-bottom: 25px;
+}
+
+.login-google {
+  background: url(./img/google.png) no-repeat 11px 11px;
+  border: 1px solid #767676;
+}
+
+.login-facebook {
+  background: url(./img/facebook.png) no-repeat 11px 11px;
+  border: 1px solid rgba(45, 156, 219, 1);
+}
+
+.login-naver {
+  background: url(./img/naver.png) no-repeat 11px 11px;
+  border: 1px solid rgba(0, 191, 24, 1);
+}
+
+.login-kakao {
+  background: url(./img/kakao.png) no-repeat 11px 11px;
+  border: 1px solid rgba(242, 201, 76, 1);
+}
