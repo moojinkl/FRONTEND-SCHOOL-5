@@ -193,21 +193,29 @@ h2 {
 }
 
 .login-google {
-  background: url(./img/google.png) no-repeat 11px 11px;
+  width: 22px;
+  height: 22px;
+  background: url("./img/css_sprites.png") no-repeat 3px 3px;
   border: 1px solid #767676;
 }
 
 .login-facebook {
-  background: url(./img/facebook.png) no-repeat 11px 11px;
+  width: 22px;
+  height: 22px;
+  background: url("./img/css_sprites.png") no-repeat 7px -125px;
   border: 1px solid rgba(45, 156, 219, 1);
 }
 
 .login-naver {
-  background: url(./img/naver.png) no-repeat 11px 11px;
+  width: 22px;
+  height: 22px;
+  background: url("./img/css_sprites.png") no-repeat 3px -82px;
   border: 1px solid rgba(0, 191, 24, 1);
 }
 
 .login-kakao {
-  background: url(./img/kakao.png) no-repeat 11px 11px;
+  width: 22px;
+  height: 22px;
+  background: url("./img/css_sprites.png") no-repeat 3px -40px;
   border: 1px solid rgba(242, 201, 76, 1);
 }
