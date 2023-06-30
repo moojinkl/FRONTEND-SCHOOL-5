@@ -1,1 +1,3 @@
 # FRONTEND-SCHOOL-5
+
+![1222](https://github.com/moojinkl/FRONTEND-SCHOOL-5/assets/126536476/997e8180-717c-4abc-898e-84f7f3072f21)
